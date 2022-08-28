@@ -1,0 +1,216 @@
+#* We have datatypes in yaml too
+#* Like in JSON, we have strings, numbers, booleans, arrays, and objects
+
+#* We can also have comments in yaml
+#* Comments start with a hash (#) and go to the end of the line
+
+#* We can have a string
+name: "John Doe"
+
+#* We can have a number
+age: 42
+
+#* We can have a boolean
+is_human: true
+
+#* We can have an array
+pets:
+  - "dog"
+  - "cat"
+  - "fish"
+
+#* We can have an object
+address:
+  street: "123 Main St"
+  city: "Anytown"
+  state: "CA"
+  zip: 12345
+
+#* We can have a nested object
+friends:
+  - name: "Jane Doe"
+    age: 40
+    is_human: true
+    pets:
+      - "dog"
+      - "cat"
+      - "fish"
+    address:
+      street: "123 Main St"
+      city: "Anytown"
+      state: "CA"
+      zip: 12345
+  - name: "John Smith"
+    age: 42
+    is_human: true
+    pets:
+      - "dog"
+      - "cat"
+      - "fish"
+    address:
+      street: "123 Main St"
+      city: "Anytown"
+      state: "CA"
+      zip: 12345
+
+#* We can have a nested array
+friends2:
+  - name: "Jane Doe"
+    age: 40
+    is_human: true
+    pets:
+      - "dog"
+      - "cat"
+      - "fish"
+    address:
+      street: "123 Main St"
+      city: "Anytown"
+      state: "CA"
+      zip: 12345
+  - name: "John Smith"
+    age: 42
+    is_human: true
+    pets:
+      - "dog"
+      - "cat"
+      - "fish"
+    address:
+      street: "123 Main St"
+      city: "Anytown"
+      state: "CA"
+      zip: 12345
+
+#* We can have a nested array of objects
+friends3:
+  - name: "Jane Doe"
+    age: 40
+    is_human: true
+    pets:
+      - "dog"
+      - "cat"
+      - "fish"
+    address:
+      street: "123 Main St"
+      city: "Anytown"
+      state: "CA"
+      zip: 12345
+  - name: "John Smith"
+    age: 42
+    is_human: true
+    pets:
+      - "dog"
+      - "cat"
+      - "fish"
+    address:
+      street: "123 Main St"
+      city: "Anytown"
+      state: "CA"
+      zip: 12345
+
+#* We can have a nested object of arrays
+friends4:
+  - name: "Jane Doe"
+    age: 40
+    is_human: true
+    pets:
+      - "dog"
+      - "cat"
+      - "fish"
+    address:
+      street: "123 Main St"
+      city: "Anytown"
+      state: "CA"
+      zip: 12345
+  - name: "John Smith"
+    age: 42
+    is_human: true
+    pets:
+      - "dog"
+      - "cat"
+      - "fish"
+    address:
+      street: "123 Main St"
+      city: "Anytown"
+      state: "CA"
+      zip: 12345
+
+#* We can have a nested array of objects of arrays
+friends5:
+  - name: "Jane Doe"
+    age: 40
+    is_human: true
+    pets:
+      - "dog"
+      - "cat"
+      - "fish"
+    address:
+      street: "123 Main St"
+      city: "Anytown"
+      state: "CA"
+      zip: 12345
+  - name: "John Smith"
+    age: 42
+    is_human: true
+    pets:
+      - "dog"
+      - "cat"
+      - "fish"
+    address:
+      street: "123 Main St"
+      city: "Anytown"
+      state: "CA"
+      zip: 12345
+
+#* We can have a nested object of arrays of objects
+friends6:
+  - name: "Jane Doe"
+    age: 40
+    is_human: true
+    pets:
+      - "dog"
+      - "cat"
+      - "fish"
+    address:
+      street: "123 Main St"
+      city: "Anytown"
+      state: "CA"
+      zip: 12345
+  - name: "John Smith"
+    age: 42
+    is_human: true
+    pets:
+      - "dog"
+      - "cat"
+      - "fish"
+    address:
+      street: "123 Main St"
+      city: "Anytown"
+      state: "CA"
+      zip: 12345
+
+#* We can have a nested array of objects of arrays of objects
+friends7:
+  - name: "Jane Doe"
+    age: 40
+    is_human: true
+    pets:
+      - "dog"
+      - "cat"
+      - "fish"
+    address:
+      street: "123 Main St"
+      city: "Anytown"
+      state: "CA"
+      zip: 12345
+  - name: "John Smith"
+    age: 42
+    is_human: true
+    pets:
+      - "dog"
+      - "cat"
+      - "fish"
+    address:
+      street: "123 Main St"
+      city: "Anytown"
+      state: "CA"
+      zip: 12345

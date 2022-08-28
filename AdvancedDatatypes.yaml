@@ -1,0 +1,19 @@
+#* Reusing some props using anchors
+
+likings: &likes
+  fav_fruit: Mango
+  dislike_fruit: Banana
+
+tamal:
+  <<: *likes
+  dislike_fruit: Orange
+  fav_color: Red
+  #
+#* Here's how person 2 will look like
+#* We are reusing the same props from person 1
+#* We are also adding some new props
+
+#* tamal:
+#*   fav_fruit: Mango
+#*   dislike_fruit: Orange
+#*   fav_color: Red
